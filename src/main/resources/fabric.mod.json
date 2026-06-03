@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "wrnzoom",
+  "version": "${version}",
+  "name": "wrnzoom",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/wrnzoom/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "de.wrn.wrnzoom.client.WrnzoomDataGenerator"
+    ],
+    "client": [
+      "de.wrn.wrnzoom.client.WrnzoomClient"
+    ],
+    "main": [
+      "de.wrn.wrnzoom.Wrnzoom"
+    ]
+  },
+  "mixins": [
+    "wrnzoom.mixins.json",
+    {
+      "config": "wrnzoom.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
