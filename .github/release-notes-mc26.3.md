@@ -1,4 +1,4 @@
-WRNzoom `1.0-SNAPSHOT` compatibility prerelease for the Minecraft 26.3 Fabric client and Java 25. This is a client mod, not a Bukkit/Paper server plugin.
+WRNzoom `1.0-SNAPSHOT` compatibility release for the Minecraft 26.3 Fabric client and Java 25. This is a client mod, not a Bukkit/Paper server plugin.
 
 Download `untitled1-1.0-SNAPSHOT.jar` and place it in the client's `mods` folder. Install Fabric Loader >=0.20.0 and matching Fabric API for Minecraft 26.3 (>=0.163.0+26.3). `SHA256SUMS` contains the checksum of this exact release build.
 

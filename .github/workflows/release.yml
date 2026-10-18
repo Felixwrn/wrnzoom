@@ -29,4 +29,4 @@ jobs:
           cd build/libs
           test -f untitled1-1.0-SNAPSHOT.jar
           sha256sum untitled1-1.0-SNAPSHOT.jar > SHA256SUMS
-          gh release create "$RELEASE_TAG" --verify-tag --prerelease --title 'WRNzoom – Minecraft 26.3' --notes-file ../../.github/release-notes-mc26.3.md untitled1-1.0-SNAPSHOT.jar SHA256SUMS
+          gh release create "$RELEASE_TAG" --verify-tag --latest --title 'WRNzoom – Minecraft 26.3' --notes-file ../../.github/release-notes-mc26.3.md untitled1-1.0-SNAPSHOT.jar SHA256SUMS
